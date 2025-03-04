@@ -1,0 +1,34 @@
+import React from "react";
+import Rive from "@rive-app/react-canvas";
+import AnimatedButton from "./Component/AnimatedButton";
+import GlobalCanvas from "./Component/GlobalCanvas";
+
+function App() {
+  return (
+    <div
+      style={{
+        // backgroundColor: "#2c3e50",  // Change the background color here
+        // padding: "20px", // Optional: Add some padding around the Rive animation
+        // textAlign: "center", // Centers content inside the container
+      }}
+    >
+      {/* <h1>Interactive Rive Animation</h1>
+      <Rive
+        src="/ballin_(interactive).riv"
+        style={{
+          width: 600,
+          height: 400,
+          border: "10px solid white",
+          cursor: "pointer",
+          backgroundColor: "black",
+        }}
+        stateMachines="Baller"
+      />
+
+      <AnimatedButton /> */}
+      <GlobalCanvas />
+    </div>
+  );
+}
+
+export default App;
